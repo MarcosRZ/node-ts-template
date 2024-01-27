@@ -1,5 +1,9 @@
 # node-ts-template
 
+Just bare minimums to start writing Node in TS with a decent tooling base. Basically types, linting and dev pipeline.
+
+Suggestions are welcome! 🙂
+
 To install dependencies:
 
 ```bash
