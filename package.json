@@ -1,0 +1,23 @@
+{
+  "name": "node-ts-template",
+  "module": "src/server.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bunx tsx watch ./src/server",
+    "build": "tsc src/server.ts",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bun build/server.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "tslint": "^6.1.3",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
